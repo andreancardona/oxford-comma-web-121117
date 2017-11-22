@@ -8,8 +8,8 @@ def oxford_comma(array)
 
   else
      array.length >= 3
-     array = ", and " + array.pop
-     array = array.join(", ") << array
+     string = ", and " + array.pop
+     string = array.join(", ") << string
    end
  end
 #For instance, you can add elements to the end of strings with the << ("shovel")
